@@ -1,7 +1,7 @@
 import { getAllPosts } from '../lib/posts';
 
 export async function GET() {
-  const baseUrl = 'https://maxlk.com'; // Use your actual domain
+  const baseUrl = 'https://maxlk.com'; // Your actual domain
 
   const posts = getAllPosts();
 
